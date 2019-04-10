@@ -199,7 +199,7 @@ class Queue[T <: Data](gen: T,
   }
 
   val genType = if (compileOptions.declaredTypeMustBeUnbound) {
-    experimental.requireIsChiselType(gen)
+    chisel3.experimental.requireIsChiselType(gen)
     gen
   } else {
     if (DataMirror.internal.isSynthesizable(gen)) {

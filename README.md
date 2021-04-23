@@ -1,5 +1,7 @@
 # Chisel3
 
+This repository is a fork of the [Chisel3 repo](https://github.com/chipsalliance/chisel3) ported for the BESSPIN project.
+
 [![Join the chat at https://gitter.im/freechipsproject/chisel3](https://badges.gitter.im/freechipsproject/chisel3.svg)](https://gitter.im/freechipsproject/chisel3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Chisel is a new hardware construction language to support advanced hardware design and circuit generation.
